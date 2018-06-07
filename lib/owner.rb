@@ -2,7 +2,7 @@ class Owner
   attr_accessor :owner
   attr_reader :species
 
-  def initialize(owner, species)
+  def initialize
     @owner = owner
     @species = species
   end
