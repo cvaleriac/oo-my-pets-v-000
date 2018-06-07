@@ -9,4 +9,8 @@ class Owner
     @owners << self
   end
 
+  def self.all
+    @owners
+  end
+
 end
